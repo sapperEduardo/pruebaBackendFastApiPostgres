@@ -5,7 +5,7 @@ class UserConnection():
     conn = None
     def __init__(self):
         try:
-            self.conn = psycopg.connect("dbname=prueba user=root password=admin host=localhost port=5432")
+            self.conn = psycopg.connect("dbname=prueba_e4n8 user=prueba_user password=bxHLwOMg0c1pkwCJK0AVTl4QMgupuAwp host=dpg-ct4bqfo8fa8c73bogtc0-a port=5432")
             print("Conectado con exito!")
         except psycopg.OperationalError as err:
             print("Error al conectarse!")
